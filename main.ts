@@ -5,7 +5,7 @@ radio.onReceivedNumber(function (receivedNumber) {
         basic.showIcon(IconNames.No)
     }
 })
-radio.setGroup(5)
+radio.setGroup(100)
 radio.setTransmitPower(3)
 basic.forever(function () {
     radio.sendNumber(0)
